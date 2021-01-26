@@ -97,7 +97,7 @@ int main(){
 
 // Generating ship location
 
-	while("true"){
+	while(true){
 		ship_location_X=rand()%11;
 		ship_location_Y=rand()%11;
 		if(map[ship_location_Y][ship_location_X]='^'){
